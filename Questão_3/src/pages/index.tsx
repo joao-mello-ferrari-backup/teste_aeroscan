@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export default function SignIn() {
-  const [isLike, setIsLike] = useState(null)
+  const [isLike, setIsLike] = useState(null);
 
   return (
     <div className='main'>
