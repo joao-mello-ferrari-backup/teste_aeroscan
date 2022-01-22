@@ -3,10 +3,11 @@
   padding: 0;
 }
 
-body > div{
+.main{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   height: 100vh;
 }
@@ -22,7 +23,7 @@ h1{
   margin-top: 1rem;
 }
 
-.buttons-container button{
+button{
   width: 12rem;
   height: 5rem;
 
@@ -39,12 +40,13 @@ h1{
   margin-left: 1rem;
 }
 
-.buttons-container button:hover:not(:disabled){
+.buttons-container button:hover:not(:disabled),
+.reset-button:hover:not(:disabled){
   opacity: 0.6;
   cursor: pointer;
 }
 
-.buttons-container button:hover:disabled{
+.buttons-container button:hover:disabled, .reset-button:hover:disabled{
   cursor: not-allowed;
 }
 
@@ -57,3 +59,11 @@ h1{
   border: 3px solid #dd2222;
   color: #dd2222;
 }
+
+.reset-button{
+  margin-top: 1.6rem;
+  height: 4rem;
+}
+
+
+
