@@ -1,0 +1,16 @@
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 95vh;
+}
+
+.avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  border: 2px solid black;
+
+}
