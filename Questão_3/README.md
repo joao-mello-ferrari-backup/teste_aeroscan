@@ -1,2 +1,2 @@
-Para instalar as depedências: yarn install ou npm install<br/>
-Para rodar o projeto: yarn dev ou npm dev
+<strong>Para instalar as depedências:</strong> yarn install ou npm install<br/>
+<strong>Para rodar o projeto:</strong> yarn dev ou npm dev
